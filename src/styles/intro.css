@@ -1,0 +1,46 @@
+#darren {
+    width: 225px;
+    height: auto;
+
+    border-radius: 30px;
+}
+.intro {
+    display: flex;
+    background-color:  #007A33;
+    margin-bottom: 0px;
+}   
+
+.photo {
+    padding: 60px 10px 10px 10%;
+}
+.photo p {
+    font-size: 20px;
+  font-family: "Lustria", serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgba(237, 237, 73, 0.907);
+}
+
+#tag {
+    font-size: 15px;
+    color: white;
+}
+
+#touch {
+    font-size: 35px;
+    color: white;
+    
+}
+.para {
+    padding-top: 3%;   
+    padding-left: 5%;  
+    font-size: 20px;
+  font-family: "Lustria", serif;
+color: rgba(237, 237, 73, 0.907);
+}
+
+.para h1 {
+    font-size: 40px;
+  font-family: "Lustria", serif;
+color: rgba(237, 237, 73, 0.907);
+}

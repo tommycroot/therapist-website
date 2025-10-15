@@ -1,0 +1,90 @@
+
+
+header {
+    box-shadow: 1px 1px 10px black;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0 0 5px 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height:20px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  text-align: center;
+  cursor: pointer;
+  margin: 20px 10px 20px 80px;
+  font-weight: 600;
+  font-family: "Lustria", serif;
+  color: rgba(237, 237, 73, 0.907);
+}
+
+.nav-link-name {
+  text-align: center;
+  cursor: pointer;
+  margin: 20px 0px 20px 40px;
+
+  font-weight: 600;
+  font-family: "Lustria", serif;
+  color: rgba(237, 237, 73, 0.907);
+  color: 007A33;
+  font-size: 25px;
+}
+
+    
+.nav-link-item {
+text-align: center;
+  cursor: pointer;
+  margin: 20px 0px 20px 40px;
+
+  font-weight: 600;
+  font-family: "Lustria", serif;
+  color: rgba(237, 237, 73, 0.907);
+}
+
+
+
+.nav-active {
+  color: rgb(204, 207, 24)!important;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg:hover {
+  fill: rgb(233, 136, 72);
+}
+
+
+.nav-link:hover {
+  color: rgb(204, 207, 24)!important;
+}
+
+.nav-link-name:hover {
+  color: rgb(204, 207, 24) !important;
+}

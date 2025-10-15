@@ -1,0 +1,38 @@
+.about-me {
+    background-color: rgba(237, 237, 73, 0.907);
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #007A33;
+}
+
+.about {
+  
+    background-color: rgba(237, 237, 73, 0.907);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+
+.header {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#qualifications {
+    text-align: center;
+}
+
+.list {
+  list-style-position: inside; /* keep bullet points inside the box */
+  text-align: center;          /* center the text and bullets */
+  padding: 0;
+  margin: 0 auto;              /* center the <ul> itself */
+  width: fit-content;          /* optional, helps with alignment */
+}
+
+#list-end {
+    text-align: center;
+}

@@ -4,6 +4,7 @@ import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Areas from './components/Areas'
 import Fees from './components/Fees'
+import Contact from './components/Contact'
 import './App.css'
 import './styles/navbar.css'
 import './styles/intro.css'
@@ -11,6 +12,7 @@ import './styles/main.css'
 import './styles/about.css'
 import './styles/areas.css'
 import './styles/fees.css'
+import './styles/contact.css'
 
 
 
@@ -18,9 +20,9 @@ function App() {
 
 
   return (
-    <>
+    <><NavBar />
       <div className='home'>
-        <NavBar />
+        
         <p className='hero'>Abingdon Therapy</p>
       </div>
       <div className='main'>
@@ -28,6 +30,8 @@ function App() {
         <AboutMe />
         <Areas />
         <Fees />
+        <Contact />
+        <footer className='footer'><a href="https://thomascroot.com">Website by Tommy Croot</a></footer>
       </div>
     </>
   )

@@ -54,7 +54,8 @@
 .about-left {
     width: 60%;
     margin-bottom: 13%;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 25pxs;
 }
 #list-end {
     text-align: center;

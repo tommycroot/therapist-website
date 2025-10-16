@@ -6,7 +6,7 @@ const Areas = () => {
     <h1>Areas of Support & How I Work</h1>
 <p>I support clients with both everyday challenges and deeper, more complex experiences.<br></br> You don’t need to have the right words or a clear label to start therapy. </p>
 <p><h2>Common themes I work with:</h2> 
-<ul className="list">
+<ul className="list" id='list2'>
 <li>Anxiety and overthinking</li> 
 
 <li>Low mood and depression</li> 

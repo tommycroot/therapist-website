@@ -1,0 +1,49 @@
+.fees {
+    background-color:rgba(237, 237, 73, 0.907);
+    padding-bottom: 5%;
+}
+
+
+.fees-h1 {
+    color: #007A33;
+    text-align: center;
+    font-family: "Lustria", serif;
+    font-style: normal;
+    padding-top: 3%;
+    font-size: 40px;
+
+}
+
+.fees-h2 {
+    color: #007A33;
+    text-align: center;
+    font-family: "Lustria", serif;
+    font-style: normal;
+    font-size: 30px !important;
+}
+
+.convo {
+    color: #007A33;
+    text-align: center;
+    font-family: "Lustria", serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sessions {
+    list-style-position: inside; /* keep bullet points inside the box */
+  text-align: center;          /* center the text and bullets */
+  padding: 20px 0px 0px 0px;
+  margin: 0 auto;              /* center the <ul> itself */
+  width: fit-content;   
+  color: #007A33;
+    text-align: center;
+    font-family: "Lustria", serif;
+    font-style: normal; 
+    font-size: 25px;
+}
+
+.prices {
+    display: flex;
+}

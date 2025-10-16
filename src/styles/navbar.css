@@ -37,7 +37,7 @@ header {
 .nav-link {
   text-align: center;
   cursor: pointer;
-  margin: 20px 10px 20px 80px;
+  margin: 30px 10px 20px 10px;
   font-weight: 600;
   font-family: "Lustria", serif;
   color: rgba(237, 237, 73, 0.907);
@@ -46,7 +46,7 @@ header {
 .nav-link-name {
   text-align: center;
   cursor: pointer;
-  margin: 20px 0px 20px 40px;
+  
 
   font-weight: 600;
   font-family: "Lustria", serif;
@@ -55,15 +55,18 @@ header {
   font-size: 25px;
 }
 
+.nav-name {
+  margin: 8px 0px 0px 30px;
+}
     
 .nav-link-item {
 text-align: center;
   cursor: pointer;
-  margin: 20px 0px 20px 40px;
+  margin: 20px 0px 10px 10px;
 
   font-weight: 600;
   font-family: "Lustria", serif;
-  color: rgba(237, 237, 73, 0.907);
+  color: color#007A33;
 }
 
 

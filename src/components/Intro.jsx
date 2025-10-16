@@ -1,5 +1,6 @@
 import darren from '../images/darren.jpg'
 
+
 const Intro = () => {
     return (
     <div className='intro'>
@@ -15,7 +16,7 @@ const Intro = () => {
 
                 I offer a space where you can talk things through openly and honestly. My approach is person-centred, grounded and human. I work with people facing all kinds of experiences — from day-to-day pressure to the impact of trauma, neurodiversity, identity and emotional strain.
 
-                <br></br><br></br>If you're curious about working together, we can have a free 30-minute conversation to see if it feels like a good fit. </p> <br></br><p id='touch'><i>Get in Touch</i></p>
+                <br></br><br></br>If you're curious about working together, we can have a free 30-minute conversation to see if it feels like a good fit. </p> <p id='touch'><i>Get in Touch</i></p>
         </div>
 
     </div>

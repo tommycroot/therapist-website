@@ -11,7 +11,7 @@
 }   
 
 .photo {
-    padding: 60px 10px 10px 10%;
+    padding: 75px 10px 10px 10%;
 }
 .photo p {
     font-size: 20px;
@@ -27,8 +27,9 @@
 }
 
 #touch {
-    font-size: 35px;
-    color: white;
+       font-size: 25px;
+    font-weight: 600;
+    color: rgba(237, 237, 73, 0.907);
     
 }
 .para {
@@ -36,7 +37,7 @@
     padding-left: 5%;  
     font-size: 20px;
   font-family: "Lustria", serif;
-color: rgba(237, 237, 73, 0.907);
+color: white;
 }
 
 .para h1 {

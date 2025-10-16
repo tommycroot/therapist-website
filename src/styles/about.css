@@ -13,16 +13,19 @@
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 5%;
+    color: #007A33;
 }
 
 .header {
     font-size: 45px;
     text-align: center;
     padding-top: 3%;
+    color: #007A33;
 }
 
 #qualifications {
     text-align: center;
+    color: #007A33;
 }
 
 .list {
@@ -30,9 +33,35 @@
   text-align: center;          /* center the text and bullets */
   padding: 0;
   margin: 0 auto;              /* center the <ul> itself */
-  width: fit-content;          /* optional, helps with alignment */
+  width: fit-content;     
+
 }
 
+.content {
+    display: flex;
+    align-items: center;
+}
+.about-right {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    
+
+}
+
+.about-left {
+    width: 60%;
+    margin-bottom: 13%;
+    font-weight: 600;
+}
 #list-end {
+    text-align: center;
+}
+
+#tommy {
+    padding-top: 4%;
+    width: 50%;
     text-align: center;
 }

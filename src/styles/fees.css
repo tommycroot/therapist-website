@@ -47,3 +47,33 @@
 .prices {
     display: flex;
 }
+
+@media (max-width: 767px) {
+    .fees {
+        padding: 0 5%;
+    }
+
+    .fees p {
+        font-size: 15px !important;
+    }
+    .fees-h1 {
+        font-size: 35px !important;
+        padding-top: 10% !important;
+    }
+
+    .fees-h2 {
+        font-size: 30px !important;
+        margin-top: 0px !important;
+    }
+
+    .sessions {
+        font-size: 15px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .convo, .area-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

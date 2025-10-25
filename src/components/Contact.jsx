@@ -9,7 +9,7 @@ const Contact = () => {
                     <li>Ask any questions </li></li>
             </ul>
             <p className="contact-p"><b>Email:</b><br></br>
-                Baghericounselling@gmail.com </p>
+                <a href="mailto:Baghericounselling@gmail.com" className="email">Baghericounselling@gmail.com </a> </p>
             <p className="contact-p"><b>Location</b><br></br>
                 Abigdon-on-Thames<br></br>
                 Online sessions available UK-wide </p>

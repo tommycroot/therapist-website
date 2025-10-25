@@ -66,3 +66,49 @@
     width: 50%;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .about-left, .about-right {
+        width: 90%;
+        font-size: 15px !important;
+        margin-bottom: 1% !important;
+    }
+
+    .header {
+        padding-top: 10% !important;
+        font-size: 35px !important;
+    }
+
+    img {
+               width: 70% !important;
+    }
+
+    .list {
+        font-weight: 400 !important;
+    }
+
+    #qualifications {
+        font-size: 35px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-right {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .about-right {
+    width: 70% !important;
+  }
+  .about-left {
+    margin-left: 30px;
+  }
+}
+
+

@@ -20,20 +20,29 @@ function App() {
 
 
   return (
-    <><NavBar />
-      <div className='home'>
-        
-        <p className='hero'>Abingdon Therapy</p>
-      </div>
-      <div className='main'>
-        <Intro />
-        <AboutMe />
-        <Areas />
-        <Fees />
-        <Contact />
-        <footer className='footer'><a href="https://thomascroot.com">Website by Tommy Croot</a></footer>
-      </div>
-    </>
+  
+  <>
+  <NavBar />
+
+  {/* New wrapper for full screen first section */}
+  <section className='hero-section'>
+    <div className='home'>
+      <p className='hero'>Abingdon Therapy</p>
+    </div>
+    <Intro />
+  </section>
+
+  <div className='main'>
+    <AboutMe />
+    <Areas />
+    <Fees />
+    <Contact />
+    <footer className='footer'>
+      <a href="https://thomascroot.com">Website by Tommy Croot</a>
+    </footer>
+  </div>
+</>
+    
   )
 }
 

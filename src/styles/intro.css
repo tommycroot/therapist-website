@@ -4,6 +4,42 @@
 
     border-radius: 30px;
 }
+
+@media (max-width: 767px) {
+  #darren {
+    width: 100px !important;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .photo {
+    padding: 20px 10px 10px 20px !important;
+        width: 40% !important;
+  }
+
+  .photo p{
+    font-size: 15px !important;
+  }
+
+  #tag {
+    font-size: 10px !important;
+    width: 70%;
+  }
+  .para {
+    padding: 0 10px 0 0 !important;
+    font-size: 15px !important;
+    margin-right: 15px;
+  }
+  
+  .para h1 {
+    font-size: 35px !important;
+    margin-bottom: 0px !important;
+  }
+  #touch {
+    font-size: 15px !important;
+  }
+  
+}
 .intro {
     display: flex;
     background-color:  #007A33;
@@ -44,4 +80,11 @@ color: white;
     font-size: 40px;
   font-family: "Lustria", serif;
 color: rgba(237, 237, 73, 0.907);
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    margin-right: 40px !important;
+  }
 }

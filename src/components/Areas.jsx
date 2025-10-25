@@ -35,7 +35,7 @@ const Areas = () => {
 </ul> 
 </p>
 <h2>My Approach</h2>
-<p>As a Person-Centred therapist, I offer a space where you can be yourself without pressure or judgement.<br></br>That means: </p>
+<p className='area-1'>As a Person-Centred therapist, I offer a space where you can be yourself without pressure or judgement.<br></br>That means: </p>
 <ul className="list">
 <li>You set the pace</li> 
 
@@ -46,7 +46,7 @@ const Areas = () => {
 <li>I’m alongside you, not above you </li> 
 
 </ul>
-<p>Clients often tell me they appreciate my realness. I’m not distant or clinical — I’m present, grounded and human in the room.<br></br>Whether you're dealing with something specific or you're not sure what's going on, we can explore it together safely and at your pace. </p>
+<p className='area-2'>Clients often tell me they appreciate my realness. I’m not distant or clinical — I’m present, grounded and human in the room.<br></br><br></br>Whether you're dealing with something specific or you're not sure what's going on, we can explore it together safely and at your pace. </p>
 <img id="aby" src={aby}></img>
 </div>
  )

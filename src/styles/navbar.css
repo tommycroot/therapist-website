@@ -178,3 +178,8 @@ svg:hover {
   }
 }
 
+@media (max-width: 767px) and (orientation: landscape) {
+.hero {
+  top: -100px !important;
+}
+}

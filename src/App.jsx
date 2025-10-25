@@ -24,7 +24,7 @@ function App() {
   <>
   <NavBar />
 
-  {/* New wrapper for full screen first section */}
+ 
   <section className='hero-section'>
     <div className='home'>
       <p className='hero'>Abingdon Therapy</p>

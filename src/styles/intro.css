@@ -42,7 +42,7 @@
 }
 .intro {
     display: flex;
-    background-color:  #007A33;
+    background-color:  #0F5A39;
     margin-bottom: 0px;
 }   
 
@@ -54,18 +54,20 @@
   font-family: "Lustria", serif;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: rgba(237, 237, 73, 0.907);
+  color: #B8BC3A;
+  font-weight: 600;
 }
 
 #tag {
     font-size: 15px;
     color: white;
+    font-weight: 400;
 }
 
 #touch {
        font-size: 25px;
     font-weight: 600;
-    color: rgba(237, 237, 73, 0.907);
+    color: #B8BC3A;
     
 }
 .para {
@@ -79,7 +81,7 @@ color: white;
 .para h1 {
     font-size: 40px;
   font-family: "Lustria", serif;
-color: rgba(237, 237, 73, 0.907);
+color: #B8BC3A;
 }
 
 
@@ -87,4 +89,16 @@ color: rgba(237, 237, 73, 0.907);
   .intro {
     margin-right: 40px !important;
   }
+}
+
+#touch {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 500;
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+
+#touch:hover {    
+  font-weight: 600;
+  color: #e2e554;
 }

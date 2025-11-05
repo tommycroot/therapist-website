@@ -16,7 +16,7 @@ If you&apos;re unsure what you need but know something isn&apos;t right, we can 
 <div className='about-right'><h2 id='qualifications'>Qualifications & Professional Standards</h2>
 
 <ul className="list">
-  <li>Diploma in Therapeutic Counselling </li>
+  <li>Level 4 Diploma in Therapeutic Counselling </li>
   <li>NCFE CACHE Certificate in Awareness of Mental Health Problems</li>
   <li>Enhanced DBS certification </li>
   <li>Member of the British Association for Counselling and Psychotherapy (BACP), membership no. 00997441 </li>

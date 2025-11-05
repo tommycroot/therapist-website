@@ -94,7 +94,7 @@ const NavBar = () => {
           ☰
         </button>
 
-        {/* Navigation links */}
+        
         <nav className={navItemsClasses}>
           <ScrollLink className='nav-link' to="about" spy={true} smooth={true} offset={offsets.about} duration={600} onClick={handleLinkClick}>
             About Me

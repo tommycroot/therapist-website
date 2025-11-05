@@ -11,7 +11,7 @@ const Contact = () => {
             <p className="contact-p"><b>Email:</b><br></br>
                 <a href="mailto:Baghericounselling@gmail.com" className="email">Baghericounselling@gmail.com </a> </p>
             <p className="contact-p"><b>Location</b><br></br>
-                Abigdon-on-Thames<br></br>
+                Abingdon-on-Thames<br></br>
                 Online sessions available UK-wide </p>
 
                 <p className="contact-p-2">If you’re not quite ready to commit but want to explore whether it feels like a good match, the initial call can help you decide without any pressure. </p>

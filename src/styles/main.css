@@ -1,5 +1,5 @@
  body {
-  background-color: #007A33;
+  background-color: #0F5A39;
 }
 .home {
    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
@@ -18,18 +18,30 @@
      font-family: "Lustria", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 600;
-    color: rgba(237, 237, 73, 0.907);
+    color: #B8BC3A;
     position: relative; 
-    top: -230px;
+    top: -260px;
     display: flex;
     justify-content: space-evenly;
-    
+    opacity: 0;
+  animation: fadeIn 2s ease-out forwards;
 }
 
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .main {
-  background-color: #007A33;
+  background-color: #0F5A39;
 }
 footer {
   text-align: center;

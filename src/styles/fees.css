@@ -1,11 +1,11 @@
 .fees {
-    background-color:rgba(237, 237, 73, 0.907);
+    background-color:#B8BC3A;
     padding-bottom: 5%;
 }
 
 
 .fees-h1 {
-    color: #007A33;
+    color: #0F5A39;
     text-align: center;
     font-family: "Lustria", serif;
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 .fees-h2 {
-    color: #007A33;
+    color: #0F5A39;
     text-align: center;
     font-family: "Lustria", serif;
     font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 .convo {
-    color: #007A33;
+    color: #0F5A39;
     text-align: center;
     font-family: "Lustria", serif;
     font-style: normal;
@@ -37,7 +37,7 @@
   padding: 20px 0px 0px 0px;
   margin: 0 auto;              /* center the <ul> itself */
   width: fit-content;   
-  color: #007A33;
+  color: #0F5A39;
     text-align: center;
     font-family: "Lustria", serif;
     font-style: normal; 

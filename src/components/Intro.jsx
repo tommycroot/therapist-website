@@ -1,4 +1,5 @@
 import darren from '../images/darren.jpg'
+import { Link as ScrollLink } from 'react-scroll'
 
 
 const Intro = () => {
@@ -12,11 +13,21 @@ const Intro = () => {
         <div className='para'>
             <h1>Welcome</h1>
             <p>You might be clear about what&apos;s brought you here, or you might just feel like something needs to change.<br></br><br></br>
-             You don't have to arrive with the right words.<br></br><br></br>
+                    You don't have to arrive with the right words.<br></br><br></br>
 
-                I offer a space where you can talk things through openly and honestly. My approach is person-centred, grounded and human. I work with people facing all kinds of experiences — from day-to-day pressure to the impact of trauma, neurodiversity, identity and emotional strain.
+                    I offer a space where you can talk things through openly and honestly. My approach is person-centred, grounded and human. I work with people facing all kinds of experiences — from day-to-day pressure to the impact of trauma, neurodiversity, identity and emotional strain.
 
-                <br></br><br></br>If you're curious about working together, we can have a free 30-minute conversation to see if it feels like a good fit. </p> <p id='touch'><i>Get in Touch</i></p>
+                    <br></br><br></br>If you're curious about working together, we can have a free 30-minute conversation to see if it feels like a good fit. </p>
+                <ScrollLink
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={600}
+                    className="get-in-touch-link"
+                >
+                    <p id='touch'><i>Get in Touch</i></p>
+                </ScrollLink>
         </div>
 
     </div>

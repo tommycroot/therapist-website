@@ -5,6 +5,7 @@
     border-radius: 30px;
 }
 
+
 @media (max-width: 767px) {
   #darren {
     width: 100px !important;

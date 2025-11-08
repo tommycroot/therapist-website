@@ -171,14 +171,24 @@ svg:hover {
     background-color: #0F5A39;
     width: 35%;
   }
+  .navbar-scrolled .nav-link-name:hover, .nav-active {
+  color: #B8BC3A !important;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.35);
+}
 
   .nav-link {
     margin: 10px 0;
+    color: #B8BC3A;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0);
   }
 
+  .navbar-scrolled .nav-link {
+  color: #B8BC3A;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.35);
+}
   .hero {
     font-size: 38px !important;
-    top: -55px !important;
+    top: -50px !important;
     font-weight: 600 !important;
   }
 

@@ -96,7 +96,7 @@ color: #B8BC3A;
 #touch {
   cursor: pointer;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.25s ease, opacity 0.25s ease;
 }
 

@@ -31,10 +31,10 @@ const NavBar = () => {
       if (isMobile) {
        
         setOffsets({
-          intro: -40,
+          intro: -55,
           about: -40,
           areas: -80,
-          fees: -50,
+          fees: -40,
           contact: -40
         });
       } else {

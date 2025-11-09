@@ -59,8 +59,10 @@ footer a {
   font-size: 20;
   text-align: center;
   padding-bottom: 10px;
-  color: wheat;
   font-weight: 600;
   font-family: monospace;
+  color: #e2e554;
+    font-weight: 600;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
  
 }

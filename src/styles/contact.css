@@ -27,8 +27,9 @@
 }
 
 .email {
-    color: white;
+    color: #e2e554;
     font-weight: 600;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 767px) {

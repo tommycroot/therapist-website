@@ -36,7 +36,7 @@ function App() {
     <AboutMe />
     <Areas />
     <Fees />
-    <Contact />
+    <Contact /><br></br><br></br>
     <footer className='footer'>
       <a href="https://thomascroot.com">Website by Tommy Croot</a>
     </footer>
